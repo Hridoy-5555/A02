@@ -1,0 +1,154 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1A0B2E;
+    
+}
+
+.nav-ul{
+    display: flex;
+    gap: 32px;
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 190px;
+    margin-top: 36.5px;
+    margin-bottom: 36.5px;
+    
+}
+
+.nav-ul li{
+    list-style: none;
+    cursor: pointer;
+    color: #ffffff;
+    
+}
+
+.nav-ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    
+    
+}
+
+
+.nav h1{
+
+    margin-left: 200px;
+    margin-right: 0;
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 700;
+    width: 219px;
+    height: 32px;
+    margin-top: 36.5px;
+    margin-bottom: 36.5px;
+}
+
+.nav h1 .nav-color{
+    background: linear-gradient(
+        90deg,
+        rgba(247, 233, 63, 1),
+        rgba(251, 9, 180, 1),
+        rgba(145, 0, 248, 1)
+    );
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 16px 12px 16px;
+    background: linear-gradient(
+        90deg,
+        rgba(247, 233, 63, 1),
+        rgba(251, 9, 180, 1),
+        rgba(145, 0, 248, 1)
+    );
+    border: none;
+    border-radius: 22px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: 314px;
+    margin-right: 200px;
+    margin-top: 36.5px;
+    margin-bottom: 36.5px;
+}
+
+.btn img{
+    width: 16px;
+    height: 16px;
+}
+
+.btn{
+    transition: background 3s ease;
+}
+
+.btn:hover{
+    background: linear-gradient(
+        90deg,
+        rgb(63, 247, 94),
+        rgb(0, 195, 255),
+        rgb(248, 0, 74)
+    );
+
+    
+}
+
+.nav .nav-img{
+   color: #1A0B2E;
+   margin: 30px 0 30px 0;
+}
+
+
+
+@media (max-width: 576px){
+    .nav{
+        
+        align-items: flex-start;
+        
+        
+    }
+    .nav h1{
+        
+        width: 137px;
+        padding: 16px 20px 16px 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        height: 20px;
+        font-size: 32px;
+        margin-bottom: 16px;
+    }
+
+
+    .nav .nav-img{
+        text-decoration: none;
+    color: #ffffff;
+    width: 137px;
+        padding: 5.25px 3px 5.25px 3px;
+        margin-left: 239px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        margin-top: 32px;
+        height: 20px;
+        font-size: 32px;
+        margin-bottom: 16px;
+        cursor: pointer;
+    }
+    .nav .nav-img:hover{
+        color: rgba(251, 9, 180, 1);
+        
+    }
+
+
+
+
+}
